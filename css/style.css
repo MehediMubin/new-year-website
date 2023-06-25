@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap");
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid red; */
+}
+
+.banner {
+    height: 100vh;
+    background-image: url("/images/banner/banner2.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.demo-section {
+    width: 30%;
+}
+
+.text-container {
+    text-align: right;
+    width: 35%;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-details {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-contact {
+    background-color: #F15B22;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
