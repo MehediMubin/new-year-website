@@ -126,3 +126,50 @@
     background-color: white;
     margin-top: 15px;
 }
+
+.footer-section {
+    height: 577px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.future-container {
+    color: white;
+    width: 35%;
+    padding-top: 180px;
+}
+
+.future-details {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+
+.logo-container img {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.subscribe-container {
+    padding-top: 180px;
+}
+
+.subscribe-title {
+    color: white;
+}
+
+.subscribe-container input {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.btn-subscribe {
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #f35b1e;
+    font-weight: bold;
+}
