@@ -35,6 +35,12 @@
     margin-bottom: 15px;
 }
 
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
 .btn:hover {
     cursor: pointer;
 }
@@ -42,9 +48,6 @@
 .btn-contact {
     background-color: #f15b22;
     color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
 }
 
 .failure-section {
@@ -99,4 +102,27 @@
 .planning-title {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.mindset-section {
+    height: 300px;
+    width: 75%;
+    background-image: url("/images/gradient2.png"), url("/images/watch.png");
+    background-repeat: no-repeat;
+    padding-top: 59px;
+    padding-left: 64px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.mindset-title {
+    font-size: 35px;
+    color: white;
+}
+
+.btn-call {
+    color: #f84d09;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 15px;
 }
